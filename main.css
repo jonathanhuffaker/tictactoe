@@ -12,8 +12,12 @@ table {
 	width: 400px;
 	background-color:blue;
 	margin: 200px, 100px;
-	
+		
+}
 
+a {
+
+	text-decoration: none;
 	
 }
 
