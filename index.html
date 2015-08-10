@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="./main.css">
+		<script src="./main.js"></script>
 
 	</head>
 	<header></header>
@@ -11,46 +12,29 @@
 <table border="1">
 <caption>TicTacToe</caption>
   
-  <di>
+  <div> 
   <tr>
-    <td id= "cell1">
-    	<input id="input1"/>
-    </td>
-    <td id="cell2">
-		<input id="input2"/>
-    </td>
+    <td class="Square" onclick="nextMove();"></td>
+    <td class="Square" onclick="nextMove();"></td>
+    <td class="square" onclick="nextMove();"></td>
+  </tr>
+  
+  <tr>
+    <td class="Square" onclick="nextMove()"></td>
+    <td class="Square" onclick="nextMove()"></td>
+    <td class="Square" onclick="nextMove()"></td>
 
-    <td id= "cell3">
-		<input id="input3"/>
-    </td>
-  </tr>
+   </tr>
+  
   <tr>
-    <td id= "cell4">
-		<input id="input4"/>
-    </td>
-    <td id="cell5">
-		<input id="input5"/>
-    </td>
-    <td id= "cell6">
-		<input id="input6"/>
-    </td>
-  </tr>
-  <tr>
-    <td id= "cell7">
-    <input id = "input7"/>
-    </td>
-    <td id="cell8">
-    <input id="input8"/>
-    </td>
-    <td id="cell9">
-    <input id="input 9" />
-    </td>
+    <td class="Square" onclick="nextMove()"></td>
+    <td class="Square" onclick="nextMove()"></td>
+    <td class="Square" onclick="nextMove()"></td>
   </tr>
 
   </div>
 </table>
 
-<script src="./main.js"></script>
 		
 	<button><a href="./index.html">Clear Table</a></button>
 	
